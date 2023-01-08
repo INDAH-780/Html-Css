@@ -1,0 +1,50 @@
+body{
+	background-color: darkorange;
+	font-family: Havetica, sans-serif;
+	font-size: 1em;
+	color: black;
+}
+
+	.container{
+		background-color: red;
+	}
+		li{
+			display: inline;
+		}
+		a{
+			padding-left: 100px;
+			text-decoration: none;
+		}
+		a:hover{
+			color: whitesmoke;
+		}
+		form{
+			border: 50px;
+		}
+		input[type=text],input[type=password]{
+			width: 20%;
+			margin: 10px;
+			padding-right: 30px;
+			border: 2px;
+			border-color: blue;
+		}
+		.box{
+			width: 400px;
+			border: 50px;
+			border-color: green;
+			margin-left: 10px;
+		}
+		.box2{
+			width: 450px;
+			margin-left: 10px;
+			border: 50px;
+			border: 5px green;
+		}
+		button:hover{
+			opacity: 1;
+		}
+		#main-footer{
+			background-color: black;
+			color: white;
+			line-height: 200%;
+		}
